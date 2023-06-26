@@ -2,42 +2,36 @@ import React, { useEffect, useState } from "react"
 import getirhero from "../images/hero-getir.svg"
 
 const Hero = () => {
-  const [hero, setHero] = useState("hero1")
-  let heroCss = `w-full h-full bg-center bg-cover duration-20 flex duration-200 bg-`
+
+  const [currentIndex, setCurrentIndex] = useState(0)
 
   useEffect(() => {
     const interval = setInterval(() => {
-      const heroImage = () => {
-        switch (hero) {
-          case "hero1":
-            setHero("hero2")
-            heroCss += hero
-            break
-          case "hero2":
-            setHero("hero3")
-            heroCss += hero
-            break
-          case "hero3":
-            setHero("hero1")
-            heroCss += hero
-            break
-          default:
-            setHero("hero1")
-            heroCss += hero
-            break
-        }
+      if (currentIndex === 2) {
+        setCurrentIndex(0)
+      } else {
+        setCurrentIndex(currentIndex + 1)
       }
-      heroImage()
-    }, 2000)
+    }, 5000)
     return () => clearInterval(interval)
-  }, [hero, hero])
+  }, [currentIndex])
 
+  const images = [
+    {
+      url: "https://raw.githubusercontent.com/tyfnacici/getir-clone/main/src/images/hero/hero1.jpg",
+    },
+    {
+      url: "https://raw.githubusercontent.com/tyfnacici/getir-clone/main/src/images/hero/hero2.jpg",
+    },
+    {
+      url: "https://raw.githubusercontent.com/tyfnacici/getir-clone/main/src/images/hero/hero3.jpg",
+    },
+  ]
   return (
-    <div className="flex flex-col w-min-max bg-[#fafafa] h-[500px]">
-      <div
-        className={heroCss}
-      >
-        <div className="p-3 md:container mx-auto px-44 flex justify-between items-center">
+    <div className="flex flex-col w-min-max h-[500px]">
+      <div className="w-full h-full bg-center bg-cover duration-500 ease-linear transition-all flex static translate" style={{backgroundImage: `url(${images[currentIndex].url})`}}>
+      <div className="h-[500px] w-full bg-gradient-to-r z-0 from-[#5d3ebc] absolute"></div>
+        <div className="p-3 md:container mx-auto px-44 flex z-10 justify-between items-center">
           <div className="flex flex-col w-64 space-y-6">
             <img className="w-44" alt="hero-getir" src={getirhero} />
             <p className="text-white text-[2.5rem] leading-10">
