@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# getir's website clone with reactjs and tailwindcss
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains a clone of the **getir's** websites homescreen, created solely for educational and personal purposes. The intention behind this project is to demonstrate my web development skills and to showcase my ability to recreate a visually similar website.
 
-## Available Scripts
+# How to Install and Use
 
-In the project directory, you can run:
+To install and use this clone, you need to have [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) installed on your computer. Once you have installed these dependencies, you can follow the steps below to install and use this clone:
 
-### `npm start`
+First of all open your terminal emulator or Powershell.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Then type the following commands:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+````
+git clone https://github.com/tyfnacici/getir-clone && cd getir-clone
+npm i
+npm start
+````
 
-### `npm test`
+# Disclaimer
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Please note that this clone is not an official product of **getir**, and it is not endorsed, sponsored, or affiliated with **getir** in any way. The original website content, design elements, and trademarks are the property of **getir**.
 
-### `npm run build`
+# Usage and Liability
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+While this clone may resemble the original **getir** website, it should not be used for any commercial purposes, including but not limited to misleading others, promoting products or services, or generating revenue. It is intended for personal use and educational purposes only.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+By using or contributing to this repository, you agree to assume all risks and liabilities associated with its use. The owner of this repository is not responsible for any consequences or damages that may arise from the use or misuse of this clone.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Attribution
 
-### `npm run eject`
+When using this clone or any code from this repository, please provide appropriate attribution to **getir**. It is important to acknowledge and respect the intellectual property rights of **getir** and to give credit for their original work.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Legal Compliance
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+It is crucial to understand that unauthorized use, reproduction, or distribution of copyrighted materials, including the content and design of **getir's** website, may infringe upon intellectual property laws. This repository and its owner do not encourage or support any form of copyright infringement or violation of applicable laws.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you have any concerns or questions regarding this repository or its contents, please contact me at **tyfnacici@gmail.com** directly.
