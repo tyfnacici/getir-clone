@@ -1,4 +1,5 @@
 import React from "react"
+/* eslint-disable */
 import appstore from "../images/footer/appstore.svg"
 import googleplay from "../images/footer/googleplay.svg"
 import appgalery from "../images/footer/appgallery.svg"
