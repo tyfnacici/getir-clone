@@ -2,6 +2,8 @@
 
 This repository contains a clone of the **getir's** websites homescreen, created solely for educational and personal purposes. The intention behind this project is to demonstrate my web development skills and to showcase my ability to recreate a visually similar website.
 
+You can visit my clone by clicking [here](https://649aaf1a1636a465ca534d4e--musical-chebakia-52a595.netlify.app/).
+
 # How to Install and Use
 
 To install and use this clone, you need to have [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) installed on your computer. Once you have installed these dependencies, you can follow the steps below to install and use this clone:
